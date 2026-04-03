@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220">
+  <defs>
+    <style>
+      @keyframes borderGlow {
+        0%, 100% { stroke: #f0f; filter: drop-shadow(0 0 3px #f0f); }
+        50% { stroke: #0ff; filter: drop-shadow(0 0 6px #0ff); }
+      }
+      @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+      @keyframes scan {
+        0% { transform: translateY(-10px); opacity: 0; }
+        50% { opacity: 0.06; }
+        100% { transform: translateY(220px); opacity: 0; }
+      }
+      .bg { fill: #0a0a1a; }
+      .border { fill: none; stroke: #f0f; stroke-width: 1; stroke-dasharray: 14 6; animation: borderGlow 4s ease-in-out infinite; }
+      .title { font-family: 'Courier New', monospace; font-size: 22px; font-weight: bold; fill: #f0f; }
+      .desc { font-family: 'Courier New', monospace; font-size: 12px; fill: #7788cc; }
+      .tag { font-family: 'Courier New', monospace; font-size: 10px; }
+      .tag-box { fill: #f0f; fill-opacity: 0.1; stroke: #f0f; stroke-width: 0.5; rx: 3; }
+      .tag-text { fill: #f0f; }
+      .status { font-family: 'Courier New', monospace; font-size: 11px; fill: #0f0; animation: pulse 2s ease-in-out infinite; }
+      .scanline { fill: rgba(255,0,255,0.04); animation: scan 3.5s linear infinite; }
+      .ver { font-family: 'Courier New', monospace; font-size: 10px; fill: #444; }
+    </style>
+  </defs>
+  <rect class="bg" width="480" height="220" rx="10"/>
+  <rect class="border" x="4" y="4" width="472" height="212" rx="8"/>
+  <rect class="scanline" x="0" y="0" width="480" height="3"/>
+
+  <text class="title" x="30" y="45">WebMCP DevTools</text>
+  <text class="desc" x="30" y="72">Inspect, execute &amp; monitor WebMCP tools</text>
+  <text class="desc" x="30" y="90">registered via navigator.modelContext</text>
+
+  <rect class="tag-box" x="30" y="105" width="100" height="20"/>
+  <text class="tag tag-text" x="40" y="119">Chrome Ext</text>
+  <rect class="tag-box" x="140" y="105" width="75" height="20"/>
+  <text class="tag tag-text" x="150" y="119">WebMCP</text>
+  <rect class="tag-box" x="225" y="105" width="80" height="20"/>
+  <text class="tag tag-text" x="235" y="119">SidePanel</text>
+  <rect class="tag-box" x="315" y="105" width="85" height="20"/>
+  <text class="tag tag-text" x="325" y="119">TypeScript</text>
+
+  <text class="status" x="30" y="155">● CHROME EXTENSION</text>
+  <text class="desc" x="30" y="175">Tools List · Execute · Timeline · Snapshots</text>
+
+  <text class="ver" x="30" y="205">&lt;navigator.modelContext /&gt;</text>
+  <text class="ver" x="360" y="205">WebMCP API</text>
+</svg>

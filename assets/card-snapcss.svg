@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220">
+  <defs>
+    <style>
+      @keyframes borderGlow {
+        0%, 100% { stroke: #0ff; filter: drop-shadow(0 0 3px #0ff); }
+        50% { stroke: #f0f; filter: drop-shadow(0 0 6px #f0f); }
+      }
+      @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+      @keyframes scan {
+        0% { transform: translateY(-10px); opacity: 0; }
+        50% { opacity: 0.06; }
+        100% { transform: translateY(220px); opacity: 0; }
+      }
+      .bg { fill: #0a0a1a; }
+      .border { fill: none; stroke: #0ff; stroke-width: 1; stroke-dasharray: 14 6; animation: borderGlow 4s ease-in-out infinite; }
+      .title { font-family: 'Courier New', monospace; font-size: 24px; font-weight: bold; fill: #0ff; }
+      .desc { font-family: 'Courier New', monospace; font-size: 12px; fill: #7788cc; }
+      .tag { font-family: 'Courier New', monospace; font-size: 10px; }
+      .tag-box { fill: #0ff; fill-opacity: 0.1; stroke: #0ff; stroke-width: 0.5; rx: 3; }
+      .tag-text { fill: #0ff; }
+      .status { font-family: 'Courier New', monospace; font-size: 11px; fill: #0f0; animation: pulse 2s ease-in-out infinite; }
+      .scanline { fill: rgba(0,255,255,0.04); animation: scan 3s linear infinite; }
+      .ver { font-family: 'Courier New', monospace; font-size: 10px; fill: #444; }
+    </style>
+  </defs>
+  <rect class="bg" width="480" height="220" rx="10"/>
+  <rect class="border" x="4" y="4" width="472" height="212" rx="8"/>
+  <rect class="scanline" x="0" y="0" width="480" height="3"/>
+
+  <text class="title" x="30" y="45">SnapCSS</text>
+  <text class="desc" x="30" y="72">Hover any element, instantly see its CSS.</text>
+  <text class="desc" x="30" y="90">One-click copy. No DevTools needed.</text>
+
+  <rect class="tag-box" x="30" y="105" width="100" height="20"/>
+  <text class="tag tag-text" x="45" y="119">Chrome Ext</text>
+  <rect class="tag-box" x="140" y="105" width="85" height="20"/>
+  <text class="tag tag-text" x="150" y="119">TypeScript</text>
+  <rect class="tag-box" x="235" y="105" width="55" height="20"/>
+  <text class="tag tag-text" x="247" y="119">Vue</text>
+
+  <text class="status" x="30" y="155">● LIVE — Chrome Web Store</text>
+  <text class="desc" x="30" y="175">hover → inspect → copy, zero config</text>
+
+  <text class="ver" x="30" y="205">&lt;v1.0.0 /&gt;</text>
+  <text class="ver" x="380" y="205">Updated 2026.03</text>
+</svg>
