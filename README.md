@@ -35,3 +35,8 @@
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=2019-02-18&style=flat-square&color=00ffff&labelColor=0a0a1a&label=PROFILE+VIEWS" />
 </p>
+
+<!-- ══════════ GitHub Stats ══════════ -->
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=2019-02-18&show_icons=true&bg_color=0a0a1a&title_color=0ff&icon_color=f0f&text_color=8888ff&border_color=0ff&hide_border=false" />
+</p>
