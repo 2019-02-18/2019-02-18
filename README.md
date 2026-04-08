@@ -5,6 +5,32 @@
 
 <br/>
 
+<!-- ══════════ About Me ══════════ -->
+<h3 align="center">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25" /> About Me
+</h3>
+
+<p align="center">
+  <b>Front-end developer who loves crafting browser extensions and developer tools.</b><br/>
+  Focused on Chrome Extensions · MCP Protocol · TypeScript · Vue<br/><br/>
+  <a href="https://chromewebstore.google.com/detail/snapcss/kcacjomlfcnflimmcnegppmejdebdcon">
+    <img src="https://img.shields.io/badge/SnapCSS-Chrome%20Web%20Store-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+</p>
+
+<details>
+<summary><b>🔭 What I'm currently working on</b></summary>
+<br/>
+
+- 🛠️ Building **MCP (Model Context Protocol)** tools for browser integration
+- 🧩 Developing Chrome extensions that boost developer productivity
+- 🤖 Exploring AI agent skills and automation workflows
+- 🎨 Crafting cyberpunk-themed developer experiences
+
+</details>
+
+<br/>
+
 <!-- ══════════ 项目卡片 ══════════ -->
 <table>
 <tr>
